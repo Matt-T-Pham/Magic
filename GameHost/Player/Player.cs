@@ -2,6 +2,12 @@
 
 namespace Player
 {
+    /*
+     * 
+     * Player every connection should be a new player for that specific gameboard.
+     * TODO: get the webserver to display the game ID then when connected make a new person for that specific game board. 
+     * 
+     */
     public class player
     {
         private int playerID;

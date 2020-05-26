@@ -5,6 +5,11 @@ using theGameBoard;
 
 namespace GameHost
 {
+    /*
+     * 
+     * Creates a server on start up.
+     * TODO:get the server ID to the website.
+     */
     class Server
     {
 

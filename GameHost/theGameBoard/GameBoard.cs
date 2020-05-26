@@ -5,6 +5,13 @@ using Player;
 
 namespace theGameBoard
 {
+    /*
+     *  Class for the "Game board" this will hold all the players and the game state.
+     *  Also creates a unique ID everytime a new gameboard is created 
+     * 
+     *  TODO get the game ID to the webserver
+     * 
+     */
     public class GameBoard
     {
         public Dictionary<int, player> Players;
