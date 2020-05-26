@@ -1,0 +1,13 @@
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.exe
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.deps.json
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.runtimeconfig.json
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.runtimeconfig.dev.json
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\GameHost.pdb
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.csprojAssemblyReference.cache
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.AssemblyInfoInputs.cache
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.AssemblyInfo.cs
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.csproj.CoreCompileInputs.cache
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.pdb
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\GameHost.genruntimeconfig.cache

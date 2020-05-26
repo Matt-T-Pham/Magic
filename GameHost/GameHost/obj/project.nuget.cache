@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8RJSBWkajzZL84ivM5I0WjmivEwMWi3CtnkxuvE92ej761q0oAnH7/KYAipUYgx/oARcVr5tT37GeRmRRoRd/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mtp8\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

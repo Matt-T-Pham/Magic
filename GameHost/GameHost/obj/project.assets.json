@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Player/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Player.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Player.dll": {}
+        }
+      },
+      "theGameBoard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Player": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/theGameBoard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/theGameBoard.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Player/1.0.0": {
+      "type": "project",
+      "path": "../Player/Player.csproj",
+      "msbuildProject": "../Player/Player.csproj"
+    },
+    "theGameBoard/1.0.0": {
+      "type": "project",
+      "path": "../theGameBoard/theGameBoard.csproj",
+      "msbuildProject": "../theGameBoard/theGameBoard.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Player >= 1.0.0",
+      "theGameBoard >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mtp8\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\Server.csproj",
+      "projectName": "Server",
+      "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\Server.csproj",
+      "packagesPath": "C:\\Users\\mtp8\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mtp8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj": {
+              "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj"
+            },
+            "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj": {
+              "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
