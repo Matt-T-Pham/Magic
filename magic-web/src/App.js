@@ -66,11 +66,7 @@ class App extends React.Component{
       return (
         <div className = "app">
           <div className='container'>
-          <SubmitButton
-                text = {'log out'}
-                disabled = {false}
-                onClick = { () => this.doLogout() }
-              />
+                
             loading, please wait...
           </div>
         </div>
@@ -82,11 +78,7 @@ class App extends React.Component{
           <div className = "app">
             <div className='container'>
               Welcome {UserStore.uyserName}
-              <SubmitButton
-                text = {'log out'}
-                disabled = {false}
-                onClick = { () => this.doLogout() }
-              />
+              
             </div>
           </div>
         );
@@ -94,7 +86,11 @@ class App extends React.Component{
       return (
         <div className="app">
           <div className='container'>
-          
+          <SubmitButton
+                text = {'log out'}
+                disabled = {false}
+                onClick = { () => this.doLogout() }
+              />
             <LoginForm />
           </div>
         </div>
