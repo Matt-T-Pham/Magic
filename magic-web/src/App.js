@@ -9,8 +9,8 @@ import './App.css';
 class App extends React.Component{
 
   async componentDidMount(){
-    try {
 
+    try {
       let res = await fetch('/isLoggedIn',{
         method: 'post',
         headers: {
@@ -33,8 +33,8 @@ class App extends React.Component{
     }
     catch(e){
       console.log(e)
-      //UserStore.loading = false;
-     // UserStore.isLoggedIn = false;
+      UserStore.loading = false;
+      UserStore.isLoggedIn = false;
     }
   }
 
@@ -44,7 +44,7 @@ class App extends React.Component{
         method: 'post',
         headers: {
             'Accept': 'application/json',
-            'Content-type': 'application/json'
+            'Content-Type': 'application/json'
         }
       });
 
@@ -53,7 +53,6 @@ class App extends React.Component{
       if (result && result.success){
         UserStore.userName = '';
         UserStore.isLoggedIn = false;
-
       }
     }
     catch(e){
@@ -65,8 +64,7 @@ class App extends React.Component{
     if (UserStore.loading){
       return (
         <div className = "app">
-          <div className='container'>
-                
+          <div className='container'>               
             loading, please wait...
           </div>
         </div>
@@ -78,7 +76,11 @@ class App extends React.Component{
           <div className = "app">
             <div className='container'>
               Welcome {UserStore.uyserName}
-              
+              <SubmitButton
+                text = {'log out'}
+                disabled = {false}
+                onClick = { () => this.doLogout() }
+              />
             </div>
           </div>
         );
@@ -86,11 +88,6 @@ class App extends React.Component{
       return (
         <div className="app">
           <div className='container'>
-          <SubmitButton
-                text = {'log out'}
-                disabled = {false}
-                onClick = { () => this.doLogout() }
-              />
             <LoginForm />
           </div>
         </div>

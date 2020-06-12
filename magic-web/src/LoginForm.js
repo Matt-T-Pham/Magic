@@ -60,7 +60,7 @@ class LoginForm extends React.Component{
         UserStore.isLoggedIn = true;
         UserStore.username = result.username;
       }
-      else if(result && result.success == false){
+      else if(result && result.success === false){
         this.resetForm();
         alert(result.msg);       
       }
@@ -77,8 +77,22 @@ class LoginForm extends React.Component{
         <InputField
           type='text'
           placeholder = 'Username'
-          vale = {this.state.username ? this.state.username : ''}
-          OnChange= {(val) => this.setInputValue('username',val)}
+          value = {this.state.username ? this.state.username : ''}
+          onChange= {(val) => this.setInputValue('username',val)}
+        />
+
+        <InputField
+          type='password'
+          placeholder = 'Password'
+          value = {this.state.password ? this.state.password : ''}
+          onChange= {(val) => this.setInputValue('password',val)}
+        />
+
+        <SubmitButton
+          text='Login'
+          disbaled = {this.state.buttonDisabled}
+          onClick={() => this.doLogin()}
+
         />
       </div>
     );
