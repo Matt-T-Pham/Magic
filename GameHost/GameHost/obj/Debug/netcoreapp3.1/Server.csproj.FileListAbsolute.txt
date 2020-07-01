@@ -1,6 +1,5 @@
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
-C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Server.exe
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Server.deps.json
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
@@ -16,3 +15,8 @@ C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Serve
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Fleck.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\WampSharp.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\WampSharp.Fleck.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache

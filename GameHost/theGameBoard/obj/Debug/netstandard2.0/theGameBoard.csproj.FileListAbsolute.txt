@@ -6,7 +6,7 @@ C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\bin\Debug\netstandard2.0\
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.csprojAssemblyReference.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.AssemblyInfoInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.AssemblyInfo.cs
-C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.csproj.CoreCompileInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.csproj.CopyComplete
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.pdb
+C:\Users\mtp8\source\repos\Magic\GameHost\theGameBoard\obj\Debug\netstandard2.0\theGameBoard.csproj.CoreCompileInputs.cache

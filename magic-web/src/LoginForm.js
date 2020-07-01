@@ -80,19 +80,16 @@ class LoginForm extends React.Component{
           value = {this.state.username ? this.state.username : ''}
           onChange= {(val) => this.setInputValue('username',val)}
         />
-
         <InputField
-          type='password'
-          placeholder = 'Password'
+          type='text'
+          placeholder = 'Game Code'
           value = {this.state.password ? this.state.password : ''}
           onChange= {(val) => this.setInputValue('password',val)}
         />
-
         <SubmitButton
           text='Login'
           disbaled = {this.state.buttonDisabled}
           onClick={() => this.doLogin()}
-
         />
       </div>
     );

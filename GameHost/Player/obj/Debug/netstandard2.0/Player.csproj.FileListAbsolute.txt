@@ -4,6 +4,6 @@ C:\Users\mtp8\source\repos\Magic\GameHost\Player\bin\Debug\netstandard2.0\Player
 C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csprojAssemblyReference.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.AssemblyInfoInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.AssemblyInfo.cs
-C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csproj.CoreCompileInputs.cache
 C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.pdb
+C:\Users\mtp8\source\repos\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csproj.CoreCompileInputs.cache

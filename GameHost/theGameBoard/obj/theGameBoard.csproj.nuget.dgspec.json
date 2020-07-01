@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "WampSharp.Fleck": {
+              "target": "Package",
+              "version": "[20.1.1, )"
             }
           },
           "imports": [
@@ -112,6 +116,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "WampSharp.Fleck": {
+              "target": "Package",
+              "version": "[20.1.1, )"
             }
           },
           "imports": [
