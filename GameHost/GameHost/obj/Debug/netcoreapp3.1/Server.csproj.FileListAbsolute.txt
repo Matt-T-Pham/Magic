@@ -19,4 +19,5 @@ C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Fleck
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\System.Reactive.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\WampSharp.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\WampSharp.Fleck.dll
+C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\mtp8\source\repos\Magic\GameHost\GameHost\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache

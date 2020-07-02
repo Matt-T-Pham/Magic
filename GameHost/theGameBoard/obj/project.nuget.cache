@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aPUEbKL9c5bc7A0m8YYpwlqr95BUrACJIlpH6jFuTiwgvX13TpTsVzhd4BxpeHI10R5D+3ANmRonBt7ehbEaKw==",
+  "dgSpecHash": "eBtOotoecOCmWvgtVho8xrd1xXpmLzShnI/OFUDD62PdjfM7FXnpIRejOSo7Llk1vTDRrkmFwfMszPZbDCdgQA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mtp8\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

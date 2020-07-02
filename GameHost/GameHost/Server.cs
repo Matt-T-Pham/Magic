@@ -7,6 +7,7 @@ using Fleck;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json.Linq;
 
 namespace GameHost
 {
@@ -22,7 +23,10 @@ namespace GameHost
 
         static void Main(string[] args)
         {
-            Server ser = new Server();
+            gameBoard = new GameBoard();
+
+            update();
+
 
             FleckLog.Level = LogLevel.Debug;
             var sockets = new List<IWebSocketConnection>();
@@ -41,8 +45,24 @@ namespace GameHost
                 };
                 socket.OnMessage = message =>
                 {
-                    Console.WriteLine("client says: " + message);
-                    sockets.ToList().ForEach(s => s.Send("client says: " + message));              
+                    var parsedOBJ = JObject.Parse(message);                                                         
+
+                    if ((parsedOBJ.SelectToken("password")).ToString() == gameBoard.getGameID())
+                    {
+                        foreach(IWebSocketConnection s in sockets)
+                        {
+                            if(s == socket)
+                                socket.Send("1");
+                        }                      
+                    }
+                    else
+                    {
+                        foreach (IWebSocketConnection s in sockets)
+                        {
+                            if (s == socket)
+                                socket.Send("0");
+                        }
+                    }                      
                 };
             });
 
