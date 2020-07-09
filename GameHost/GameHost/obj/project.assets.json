@@ -2365,11 +2365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\GameHost\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\Server.csproj",
+      "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\GameHost\\Server.csproj",
       "packagesPath": "C:\\Users\\mtp8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\GameHost\\obj\\",
+      "outputPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\GameHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2390,11 +2390,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj": {
-              "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj"
+            "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {
+              "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj"
             },
-            "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj": {
-              "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj"
+            "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj": {
+              "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj"
             }
           }
         }

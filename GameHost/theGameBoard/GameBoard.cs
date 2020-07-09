@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Player;
 
@@ -11,11 +12,13 @@ namespace theGameBoard
      * 
      *  TODO get the game ID to the webserver
      * 
+     *  default to EDH
      */
     public class GameBoard
     {
         public Dictionary<int, player> Players;
         public string GameID;
+        
 
         public GameBoard()
         {
@@ -49,6 +52,22 @@ namespace theGameBoard
                 str_build.Append(letter);
             }
             this.GameID = str_build.ToString();
+        }
+
+        public void newPlayer(string username, string gameCode)
+        {
+            if (gameCode.ToUpper() == GameID) {
+                player newP;
+                if(Players.Count == 0)
+                    newP = new player(0, username, gameCode, 40);
+                else                
+                    newP = new player(Players.Keys.Max() + 1, username, gameCode, 40);                
+                Players.Add(newP.getID(), newP);
+             }
+            else
+            {
+                Console.WriteLine("GameCode Incorrect");
+            }
         }
     }
 }

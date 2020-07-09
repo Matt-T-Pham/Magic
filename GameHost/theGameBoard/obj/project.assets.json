@@ -2622,11 +2622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj",
+      "projectUniqueName": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj",
       "projectName": "theGameBoard",
-      "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj",
+      "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\theGameBoard\\theGameBoard.csproj",
       "packagesPath": "C:\\Users\\mtp8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\theGameBoard\\obj\\",
+      "outputPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\theGameBoard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -2647,8 +2647,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj": {
-              "projectPath": "C:\\Users\\mtp8\\source\\repos\\Magic\\GameHost\\Player\\Player.csproj"
+            "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {
+              "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj"
             }
           }
         }

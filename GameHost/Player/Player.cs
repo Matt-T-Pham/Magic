@@ -10,10 +10,10 @@ namespace Player
     {
         private int playerID;
         private string playerName;
-        private int gameID;
+        private string gameID;
         private int hp;
 
-        public player(int playerID, string playerName, int gameID, int hp)
+        public player(int playerID, string playerName, string gameID, int hp)
         {
             this.playerID = playerID;
             this.playerName = playerName;
@@ -36,11 +36,11 @@ namespace Player
         {
             return this.playerName;
         }
-        public void setGameID(int id)
+        public void setGameID(string id)
         {
             this.gameID = id;
         }
-        public int getGameID()
+        public string getGameID()
         {
             return this.gameID;
         }
