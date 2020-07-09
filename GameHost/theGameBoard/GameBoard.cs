@@ -18,7 +18,8 @@ namespace theGameBoard
     {
         public Dictionary<int, player> Players;
         public string GameID;
-        
+
+        public int Cap;
 
         public GameBoard()
         {
@@ -58,16 +59,32 @@ namespace theGameBoard
         {
             if (gameCode.ToUpper() == GameID) {
                 player newP;
-                if(Players.Count == 0)
+                if (Players.Count == 0)
                     newP = new player(0, username, gameCode, 40);
-                else                
-                    newP = new player(Players.Keys.Max() + 1, username, gameCode, 40);                
-                Players.Add(newP.getID(), newP);
-             }
+                else
+                    newP = new player(Players.Keys.Max() + 1, username, gameCode, 40);
+               
+                if(Players.Count <= this.Cap)
+                {
+                    Players.Add(newP.getID(), newP);
+                } else
+
+                    Console.WriteLine("Error maximum amount of players reached");
+            }
             else
             {
                 Console.WriteLine("GameCode Incorrect");
             }
         }
+
+        public void SetCap(int a){
+            this.Cap = a;      
+        }
+        public int GetCap()
+        {
+            return this.Cap;
+        }
+
+
     }
 }

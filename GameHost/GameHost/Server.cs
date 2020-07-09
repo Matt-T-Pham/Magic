@@ -26,6 +26,12 @@ namespace GameHost
         {
             gameBoard = new GameBoard();
 
+            Console.WriteLine("Enter number of players: ");
+            string capacity;
+
+            capacity = Console.ReadLine();
+            gameBoard.SetCap(int.Parse(capacity));           
+
             Console.WriteLine(gameBoard.getGameID());
 
 

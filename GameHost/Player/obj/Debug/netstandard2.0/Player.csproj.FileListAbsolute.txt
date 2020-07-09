@@ -16,3 +16,12 @@ C:\Users\mtp8\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Pl
 C:\Users\mtp8\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csproj.CoreCompileInputs.cache
 C:\Users\mtp8\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.dll
 C:\Users\mtp8\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.pdb
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\bin\Debug\netstandard2.0\Player.deps.json
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\bin\Debug\netstandard2.0\Player.dll
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\bin\Debug\netstandard2.0\Player.pdb
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csprojAssemblyReference.cache
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.AssemblyInfoInputs.cache
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.AssemblyInfo.cs
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.csproj.CoreCompileInputs.cache
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.dll
+C:\Users\vicar\OneDrive\Documents\GitHub\Magic\GameHost\Player\obj\Debug\netstandard2.0\Player.pdb
