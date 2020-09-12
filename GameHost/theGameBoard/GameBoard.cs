@@ -58,13 +58,14 @@ namespace theGameBoard
         public void newPlayer(string username, string gameCode)
         {
             if (gameCode.ToUpper() == GameID) {
+
                 player newP;
                 if (Players.Count == 0)
                     newP = new player(0, username, gameCode, 40);
                 else
                     newP = new player(Players.Keys.Max() + 1, username, gameCode, 40);
                
-                if(Players.Count <= this.Cap)
+                if(Players.Count < this.Cap)
                 {
                     Players.Add(newP.getID(), newP);
                 } else

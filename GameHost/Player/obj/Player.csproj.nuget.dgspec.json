@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vicar\\OneDrive\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {}
+    "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vicar\\OneDrive\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {
+    "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vicar\\OneDrive\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj",
+        "projectUniqueName": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj",
         "projectName": "Player",
-        "projectPath": "C:\\Users\\vicar\\OneDrive\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj",
-        "packagesPath": "C:\\Users\\vicar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vicar\\OneDrive\\Documents\\GitHub\\Magic\\GameHost\\Player\\obj\\",
+        "projectPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\Player.csproj",
+        "packagesPath": "C:\\Users\\mtp8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtp8\\Documents\\GitHub\\Magic\\GameHost\\Player\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vicar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mtp8\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
